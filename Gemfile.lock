@@ -1,0 +1,556 @@
+PATH
+  remote: .
+  specs:
+    triple_easy (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionpack (8.1.3)
+      actionview (= 8.1.3)
+      activesupport (= 8.1.3)
+      nokogiri (>= 1.8.5)
+      rack (>= 2.2.4)
+      rack-session (>= 1.0.1)
+      rack-test (>= 0.6.3)
+      rails-dom-testing (~> 2.2)
+      rails-html-sanitizer (~> 1.6)
+      useragent (~> 0.16)
+    actionview (8.1.3)
+      activesupport (= 8.1.3)
+      builder (~> 3.1)
+      erubi (~> 1.11)
+      rails-dom-testing (~> 2.2)
+      rails-html-sanitizer (~> 1.6)
+    activesupport (8.1.3)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.3.1)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      json
+      logger (>= 1.4.2)
+      minitest (>= 5.1)
+      securerandom (>= 0.3)
+      tzinfo (~> 2.0, >= 2.0.5)
+      uri (>= 0.13.1)
+    addressable (2.8.9)
+      public_suffix (>= 2.0.2, < 8.0)
+    ast (2.4.3)
+    base64 (0.3.0)
+    bcp47_spec (0.2.1)
+    better_html (2.2.0)
+      actionview (>= 7.0)
+      activesupport (>= 7.0)
+      ast (~> 2.0)
+      erubi (~> 1.4)
+      parser (>= 2.4)
+      smart_properties
+    bigdecimal (3.3.1)
+    builder (3.3.0)
+    coderay (1.1.3)
+    concurrent-ruby (1.3.6)
+    connection_pool (3.0.2)
+    crack (1.0.1)
+      bigdecimal
+      rexml
+    crass (1.0.6)
+    date (3.5.1)
+    diff-lcs (1.6.2)
+    docile (1.4.1)
+    dotenv (3.2.0)
+    drb (2.2.3)
+    ebnf (2.6.0)
+      base64 (~> 0.2)
+      htmlentities (~> 4.3)
+      rdf (~> 3.3)
+      scanf (~> 1.0)
+      sxp (~> 2.0)
+      unicode-types (~> 1.8)
+    erb_lint (0.9.0)
+      activesupport
+      better_html (>= 2.0.1)
+      parser (>= 2.7.1.4)
+      rainbow
+      rubocop (>= 1)
+      smart_properties
+    erubi (1.13.1)
+    ffi (1.17.4-aarch64-linux-gnu)
+    ffi (1.17.4-aarch64-linux-musl)
+    ffi (1.17.4-arm-linux-gnu)
+    ffi (1.17.4-arm-linux-musl)
+    ffi (1.17.4-arm64-darwin)
+    ffi (1.17.4-x86_64-darwin)
+    ffi (1.17.4-x86_64-linux-gnu)
+    ffi (1.17.4-x86_64-linux-musl)
+    haml (6.4.0)
+      temple (>= 0.8.2)
+      thor
+      tilt
+    hamster (3.0.0)
+      concurrent-ruby (~> 1.0)
+    hashdiff (1.2.1)
+    htmlentities (4.4.2)
+    i18n (1.14.8)
+      concurrent-ruby (~> 1.0)
+    io-console (0.8.2)
+    json (2.19.3)
+    json-canonicalization (1.0.0)
+    json-ld (3.3.2)
+      htmlentities (~> 4.3)
+      json-canonicalization (~> 1.0)
+      link_header (~> 0.0, >= 0.0.8)
+      multi_json (~> 1.15)
+      rack (>= 2.2, < 4)
+      rdf (~> 3.3)
+      rexml (~> 3.2)
+    json-ld-preloaded (3.3.2)
+      json-ld (~> 3.3)
+      rdf (~> 3.3)
+    language_server-protocol (3.17.0.5)
+    ld-patch (3.3.1)
+      ebnf (~> 2.6)
+      rdf (~> 3.3)
+      rdf-xsd (~> 3.3)
+      sparql (~> 3.3)
+      sxp (~> 2.0)
+    link_header (0.0.8)
+    linkeddata (3.2.2)
+      json-ld (~> 3.2, >= 3.2.5)
+      json-ld-preloaded (~> 3.2, >= 3.2.2)
+      ld-patch (~> 3.2, >= 3.2.2)
+      nokogiri (~> 1.13, >= 1.13.8)
+      rdf (~> 3.2, >= 3.2.1)
+      rdf-aggregate-repo (~> 3.2, >= 3.2.1)
+      rdf-hamster-repo (~> 3.2, >= 3.2.1)
+      rdf-isomorphic (~> 3.2, >= 3.2.1)
+      rdf-json (~> 3.2)
+      rdf-microdata (~> 3.2, >= 3.2.1)
+      rdf-n3 (~> 3.2, >= 3.2.1)
+      rdf-normalize (~> 0.6, >= 0.6.1)
+      rdf-ordered-repo (~> 3.2, >= 3.2.1)
+      rdf-rdfa (~> 3.2, >= 3.2.3)
+      rdf-rdfxml (~> 3.2, >= 3.2.2)
+      rdf-reasoner (~> 0.8)
+      rdf-tabular (~> 3.2, >= 3.2.1)
+      rdf-trig (~> 3.2)
+      rdf-trix (~> 3.2)
+      rdf-turtle (~> 3.2, >= 3.2.1)
+      rdf-vocab (~> 3.2, >= 3.2.7)
+      rdf-xsd (~> 3.2, >= 3.2.1)
+      shacl (~> 0.3)
+      shex (~> 0.7, >= 0.7.1)
+      sparql (~> 3.2, >= 3.2.6)
+      sparql-client (~> 3.2, >= 3.2.2)
+      yaml-ld (~> 0.0)
+    lint_roller (1.1.0)
+    logger (1.7.0)
+    loofah (2.25.1)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.12.0)
+    matrix (0.4.3)
+    method_source (1.1.0)
+    minitest (6.0.2)
+      drb (~> 2.0)
+      prism (~> 1.5)
+    multi_json (1.19.1)
+    net-http-persistent (4.0.8)
+      connection_pool (>= 2.2.4, < 4)
+    nokogiri (1.19.2-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.2-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.19.2-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.2-arm-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.19.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.19.2-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.19.2-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.19.2-x86_64-linux-musl)
+      racc (~> 1.4)
+    ostruct (0.6.3)
+    parallel (1.27.0)
+    parser (3.3.11.1)
+      ast (~> 2.4.1)
+      racc
+    prism (1.9.0)
+    pry (0.15.2)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    psych (5.3.1)
+      date
+      stringio
+    public_suffix (7.0.5)
+    racc (1.8.1)
+    rack (3.2.5)
+    rack-session (2.1.1)
+      base64 (>= 0.1.0)
+      rack (>= 3.0.0)
+    rack-test (2.2.0)
+      rack (>= 1.3)
+    rails-dom-testing (2.3.0)
+      activesupport (>= 5.0.0)
+      minitest
+      nokogiri (>= 1.6)
+    rails-html-sanitizer (1.7.0)
+      loofah (~> 2.25)
+      nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
+    rainbow (3.1.1)
+    rake (13.3.1)
+    rdf (3.3.4)
+      bcp47_spec (~> 0.2)
+      bigdecimal (~> 3.1, >= 3.1.5)
+      link_header (~> 0.0, >= 0.0.8)
+      logger (~> 1.5)
+      ostruct (~> 0.6)
+      readline (~> 0.0)
+    rdf-aggregate-repo (3.3.0)
+      rdf (~> 3.3)
+    rdf-hamster-repo (3.3.0)
+      hamster (~> 3.0)
+      rdf (~> 3.3)
+    rdf-isomorphic (3.3.0)
+      rdf (~> 3.3)
+    rdf-json (3.3.0)
+      rdf (~> 3.3)
+    rdf-microdata (3.3.0)
+      htmlentities (~> 4.3)
+      nokogiri (~> 1.15, >= 1.15.4)
+      rdf (~> 3.3)
+      rdf-rdfa (~> 3.3)
+      rdf-xsd (~> 3.3)
+    rdf-n3 (3.3.1)
+      ebnf (~> 2.5)
+      rdf (~> 3.3)
+      sparql (~> 3.3)
+      sxp (~> 2.0)
+    rdf-normalize (0.7.0)
+      rdf (~> 3.3)
+    rdf-ordered-repo (3.3.0)
+      rdf (~> 3.3)
+    rdf-raptor (3.1.0)
+      ffi (~> 1.11)
+      rdf (~> 3.1)
+    rdf-rdfa (3.3.0)
+      haml (~> 6.1)
+      htmlentities (~> 4.3)
+      rdf (~> 3.3)
+      rdf-aggregate-repo (~> 3.3)
+      rdf-vocab (~> 3.3)
+      rdf-xsd (~> 3.3)
+    rdf-rdfxml (3.3.0)
+      builder (~> 3.2, >= 3.2.4)
+      htmlentities (~> 4.3)
+      rdf (~> 3.3)
+      rdf-xsd (~> 3.3)
+    rdf-reasoner (0.9.0)
+      rdf (~> 3.3)
+      rdf-xsd (~> 3.3)
+    rdf-tabular (3.3.0)
+      addressable (~> 2.8)
+      bcp47_spec (~> 0.2)
+      json-ld (~> 3.3)
+      rdf (~> 3.3)
+      rdf-vocab (~> 3.3)
+      rdf-xsd (~> 3.3)
+    rdf-trig (3.3.0)
+      ebnf (~> 2.4)
+      rdf (~> 3.3)
+      rdf-turtle (~> 3.3)
+    rdf-trix (3.3.0)
+      rdf (~> 3.3)
+      rdf-xsd (~> 3.3)
+    rdf-turtle (3.3.1)
+      base64 (~> 0.2)
+      bigdecimal (~> 3.1, >= 3.1.5)
+      ebnf (~> 2.5)
+      rdf (~> 3.3)
+    rdf-vocab (3.3.3)
+      rdf (~> 3.3)
+    rdf-xsd (3.3.0)
+      rdf (~> 3.3)
+      rexml (~> 3.2)
+    readline (0.0.4)
+      reline
+    regexp_parser (2.11.3)
+    reline (0.6.3)
+      io-console (~> 0.5)
+    require_all (3.0.0)
+    rexml (3.4.4)
+    rspec (3.13.2)
+      rspec-core (~> 3.13.0)
+      rspec-expectations (~> 3.13.0)
+      rspec-mocks (~> 3.13.0)
+    rspec-core (3.13.6)
+      rspec-support (~> 3.13.0)
+    rspec-expectations (3.13.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-mocks (3.13.8)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.13.0)
+    rspec-openapi (0.18.4)
+      actionpack (>= 5.2.0)
+      rails-dom-testing
+      rspec-core
+    rspec-support (3.13.7)
+    rubocop (1.86.0)
+      json (~> 2.3)
+      language_server-protocol (~> 3.17.0.2)
+      lint_roller (~> 1.1.0)
+      parallel (~> 1.10)
+      parser (>= 3.3.0.2)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 2.9.3, < 3.0)
+      rubocop-ast (>= 1.49.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 2.4.0, < 4.0)
+    rubocop-ast (1.49.1)
+      parser (>= 3.3.7.2)
+      prism (~> 1.7)
+    ruby-debug-ide (0.7.5)
+      rake (>= 0.8.1)
+    ruby-progressbar (1.13.0)
+    scanf (1.0.0)
+    securerandom (0.4.1)
+    shacl (0.4.3)
+      json-ld (~> 3.3)
+      rdf (~> 3.3)
+      sparql (~> 3.3)
+      sxp (~> 2.0)
+    shex (0.8.1)
+      ebnf (~> 2.5)
+      htmlentities (~> 4.3)
+      json-ld (~> 3.3)
+      json-ld-preloaded (~> 3.3)
+      rdf (~> 3.3)
+      rdf-xsd (~> 3.3)
+      sparql (~> 3.3)
+      sxp (~> 2.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-html (0.13.2)
+    simplecov_json_formatter (0.1.4)
+    smart_properties (1.17.0)
+    sparql (3.3.2)
+      builder (~> 3.2, >= 3.2.4)
+      ebnf (~> 2.5)
+      logger (~> 1.5)
+      rdf (~> 3.3)
+      rdf-aggregate-repo (~> 3.3)
+      rdf-xsd (~> 3.3)
+      readline (~> 0.0)
+      sparql-client (~> 3.3)
+      sxp (~> 2.0)
+    sparql-client (3.3.0)
+      net-http-persistent (~> 4.0, >= 4.0.2)
+      rdf (~> 3.3)
+    stringio (3.2.0)
+    sxp (2.0.0)
+      matrix (~> 0.4)
+      rdf (~> 3.3)
+    temple (0.10.4)
+    thor (1.5.0)
+    tilt (2.7.0)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+    unicode-display_width (3.2.0)
+      unicode-emoji (~> 4.1)
+    unicode-emoji (4.2.0)
+    unicode-types (1.11.0)
+    uri (1.1.1)
+    useragent (0.16.11)
+    vcr (6.4.0)
+    webmock (3.26.2)
+      addressable (>= 2.8.0)
+      crack (>= 0.3.2)
+      hashdiff (>= 0.4.0, < 2.0.0)
+    yaml-ld (0.0.3)
+      json-ld (~> 3.3)
+      psych (>= 3.3)
+      rdf (~> 3.3)
+      rdf-xsd (~> 3.3)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  dotenv (~> 3.1)
+  erb_lint (~> 0.9.0)
+  json-ld (~> 3.3)
+  linkeddata (~> 3.2.0)
+  pry (~> 0.15.2)
+  rack-test (~> 2.1)
+  rake (~> 13.0)
+  rdf (~> 3.0)
+  rdf-raptor (~> 3.1.0)
+  rdf-vocab (~> 3.3)
+  require_all (~> 3.0.0)
+  rspec (~> 3.13)
+  rspec-core (~> 3.13)
+  rspec-openapi (~> 0.18.4)
+  rubocop (~> 1.72)
+  ruby-debug-ide
+  securerandom
+  simplecov (~> 0.22)
+  triple_easy!
+  uri (~> 1.0)
+  vcr (~> 6.3)
+  webmock (~> 3.23)
+
+CHECKSUMS
+  actionpack (8.1.3) sha256=af998cae4d47c5d581a2cc363b5c77eb718b7c4b45748d81b1887b25621c29a3
+  actionview (8.1.3) sha256=1347c88c7f3edb38100c5ce0e9fb5e62d7755f3edc1b61cce2eb0b2c6ea2fd5d
+  activesupport (8.1.3) sha256=21a5e0dfbd4c3ddd9e1317ec6a4d782fa226e7867dc70b0743acda81a1dca20e
+  addressable (2.8.9) sha256=cc154fcbe689711808a43601dee7b980238ce54368d23e127421753e46895485
+  ast (2.4.3) sha256=954615157c1d6a382bc27d690d973195e79db7f55e9765ac7c481c60bdb4d383
+  base64 (0.3.0) sha256=27337aeabad6ffae05c265c450490628ef3ebd4b67be58257393227588f5a97b
+  bcp47_spec (0.2.1) sha256=3fd62edf96c126bd9624e4319ac74082a966081859d1ee0ef3c3041640a37810
+  better_html (2.2.0) sha256=e68ab66ab09696b708333bbf35e8aa3c107500ba7892f528e2111624bdd8cf76
+  bigdecimal (3.3.1) sha256=eaa01e228be54c4f9f53bf3cc34fe3d5e845c31963e7fcc5bedb05a4e7d52218
+  builder (3.3.0) sha256=497918d2f9dca528fdca4b88d84e4ef4387256d984b8154e9d5d3fe5a9c8835f
+  coderay (1.1.3) sha256=dc530018a4684512f8f38143cd2a096c9f02a1fc2459edcfe534787a7fc77d4b
+  concurrent-ruby (1.3.6) sha256=6b56837e1e7e5292f9864f34b69c5a2cbc75c0cf5338f1ce9903d10fa762d5ab
+  connection_pool (3.0.2) sha256=33fff5ba71a12d2aa26cb72b1db8bba2a1a01823559fb01d29eb74c286e62e0a
+  crack (1.0.1) sha256=ff4a10390cd31d66440b7524eb1841874db86201d5b70032028553130b6d4c7e
+  crass (1.0.6) sha256=dc516022a56e7b3b156099abc81b6d2b08ea1ed12676ac7a5657617f012bd45d
+  date (3.5.1) sha256=750d06384d7b9c15d562c76291407d89e368dda4d4fff957eb94962d325a0dc0
+  diff-lcs (1.6.2) sha256=9ae0d2cba7d4df3075fe8cd8602a8604993efc0dfa934cff568969efb1909962
+  docile (1.4.1) sha256=96159be799bfa73cdb721b840e9802126e4e03dfc26863db73647204c727f21e
+  dotenv (3.2.0) sha256=e375b83121ea7ca4ce20f214740076129ab8514cd81378161f11c03853fe619d
+  drb (2.2.3) sha256=0b00d6fdb50995fe4a45dea13663493c841112e4068656854646f418fda13373
+  ebnf (2.6.0) sha256=e746a316caa885cc45e243dc33efc194943956760bc9bc13948de1732fbcf63e
+  erb_lint (0.9.0) sha256=dfb5e40ad839e8d1f0d56ca85ec9a7ac4c9cd966ec281138282f35b323ca7c31
+  erubi (1.13.1) sha256=a082103b0885dbc5ecf1172fede897f9ebdb745a4b97a5e8dc63953db1ee4ad9
+  ffi (1.17.4-aarch64-linux-gnu) sha256=b208f06f91ffd8f5e1193da3cae3d2ccfc27fc36fba577baf698d26d91c080df
+  ffi (1.17.4-aarch64-linux-musl) sha256=9286b7a615f2676245283aef0a0a3b475ae3aae2bb5448baace630bb77b91f39
+  ffi (1.17.4-arm-linux-gnu) sha256=d6dbddf7cb77bf955411af5f187a65b8cd378cb003c15c05697f5feee1cb1564
+  ffi (1.17.4-arm-linux-musl) sha256=9d4838ded0465bef6e2426935f6bcc93134b6616785a84ffd2a3d82bc3cf6f95
+  ffi (1.17.4-arm64-darwin) sha256=19071aaf1419251b0a46852abf960e77330a3b334d13a4ab51d58b31a937001b
+  ffi (1.17.4-x86_64-darwin) sha256=aa70390523cf3235096cf64962b709b4cfbd5c082a2cb2ae714eb0fe2ccda496
+  ffi (1.17.4-x86_64-linux-gnu) sha256=9d3db14c2eae074b382fa9c083fe95aec6e0a1451da249eab096c34002bc752d
+  ffi (1.17.4-x86_64-linux-musl) sha256=3fdf9888483de005f8ef8d1cf2d3b20d86626af206cbf780f6a6a12439a9c49e
+  haml (6.4.0) sha256=b2e20652be52ac9a3be328e8ff411ad007e82fc4e78e1a5cdefad537a697cf6a
+  hamster (3.0.0) sha256=5951e3a3ffd15ba854a976ac36ebae9469966f726034ffed0dccdb6d12d434d8
+  hashdiff (1.2.1) sha256=9c079dbc513dfc8833ab59c0c2d8f230fa28499cc5efb4b8dd276cf931457cd1
+  htmlentities (4.4.2) sha256=bbafbdf69f2eca9262be4efef7e43e6a1de54c95eb600f26984f71d2fe96c5c3
+  i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
+  io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
+  json (2.19.3) sha256=289b0bb53052a1fa8c34ab33cc750b659ba14a5c45f3fcf4b18762dc67c78646
+  json-canonicalization (1.0.0) sha256=d4848a8cca7534455c6721f2d9fc9e5e9adca49486864a898810024f67d59446
+  json-ld (3.3.2) sha256=b9531893bf5bdc01db428e96953845a23adb1097125ce918ae0f97c4a6e1ab27
+  json-ld-preloaded (3.3.2) sha256=46294327eaf3bf95d48877222a70dd79740917adff94d5f0d380a4c492131ee1
+  language_server-protocol (3.17.0.5) sha256=fd1e39a51a28bf3eec959379985a72e296e9f9acfce46f6a79d31ca8760803cc
+  ld-patch (3.3.1) sha256=e663fca96ef2b7cbe25d2b5fe257d17984d28b64cb475d50943eebbb5c05dc51
+  link_header (0.0.8) sha256=15c65ce43b29f739b30d05e5f25c22c23797e89cf6f905dbb595fb4c70cb55f9
+  linkeddata (3.2.2) sha256=c5e02d6fd08c59dbe035705087a7cba757841df0e093b036d797a49202401bd1
+  lint_roller (1.1.0) sha256=2c0c845b632a7d172cb849cc90c1bce937a28c5c8ccccb50dfd46a485003cc87
+  logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
+  loofah (2.25.1) sha256=d436c73dbd0c1147b16c4a41db097942d217303e1f7728704b37e4df9f6d2e04
+  matrix (0.4.3) sha256=a0d5ab7ddcc1973ff690ab361b67f359acbb16958d1dc072b8b956a286564c5b
+  method_source (1.1.0) sha256=181301c9c45b731b4769bc81e8860e72f9161ad7d66dd99103c9ab84f560f5c5
+  minitest (6.0.2) sha256=db6e57956f6ecc6134683b4c87467d6dd792323c7f0eea7b93f66bd284adbc3d
+  multi_json (1.19.1) sha256=7aefeff8f2c854bf739931a238e4aea64592845e0c0395c8a7d2eea7fdd631b7
+  net-http-persistent (4.0.8) sha256=ef3de8319d691537b329053fae3a33195f8b070bbbfae8bf1a58c796081960e6
+  nokogiri (1.19.2-aarch64-linux-gnu) sha256=c34d5c8208025587554608e98fd88ab125b29c80f9352b821964e9a5d5cfbd19
+  nokogiri (1.19.2-aarch64-linux-musl) sha256=7f6b4b0202d507326841a4f790294bf75098aef50c7173443812e3ac5cb06515
+  nokogiri (1.19.2-arm-linux-gnu) sha256=b7fa1139016f3dc850bda1260988f0d749934a939d04ef2da13bec060d7d5081
+  nokogiri (1.19.2-arm-linux-musl) sha256=61114d44f6742ff72194a1b3020967201e2eb982814778d130f6471c11f9828c
+  nokogiri (1.19.2-arm64-darwin) sha256=58d8ea2e31a967b843b70487a44c14c8ba1866daa1b9da9be9dbdf1b43dee205
+  nokogiri (1.19.2-x86_64-darwin) sha256=7d9af11fda72dfaa2961d8c4d5380ca0b51bc389dc5f8d4b859b9644f195e7a4
+  nokogiri (1.19.2-x86_64-linux-gnu) sha256=fa8feca882b73e871a9845f3817a72e9734c8e974bdc4fbad6e4bc6e8076b94f
+  nokogiri (1.19.2-x86_64-linux-musl) sha256=93128448e61a9383a30baef041bf1f5817e22f297a1d400521e90294445069a8
+  ostruct (0.6.3) sha256=95a2ed4a4bd1d190784e666b47b2d3f078e4a9efda2fccf18f84ddc6538ed912
+  parallel (1.27.0) sha256=4ac151e1806b755fb4e2dc2332cbf0e54f2e24ba821ff2d3dcf86bf6dc4ae130
+  parser (3.3.11.1) sha256=d17ace7aabe3e72c3cc94043714be27cc6f852f104d81aa284c2281aecc65d54
+  prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
+  pry (0.15.2) sha256=12d54b8640d3fa29c9211dd4ffb08f3fd8bf7a4fd9b5a73ce5b59c8709385b6b
+  psych (5.3.1) sha256=eb7a57cef10c9d70173ff74e739d843ac3b2c019a003de48447b2963d81b1974
+  public_suffix (7.0.5) sha256=1a8bb08f1bbea19228d3bed6e5ed908d1cb4f7c2726d18bd9cadf60bc676f623
+  racc (1.8.1) sha256=4a7f6929691dbec8b5209a0b373bc2614882b55fc5d2e447a21aaa691303d62f
+  rack (3.2.5) sha256=4cbd0974c0b79f7a139b4812004a62e4c60b145cba76422e288ee670601ed6d3
+  rack-session (2.1.1) sha256=0b6dc07dea7e4b583f58a48e8b806d4c9f1c6c9214ebc202ec94562cbea2e4e9
+  rack-test (2.2.0) sha256=005a36692c306ac0b4a9350355ee080fd09ddef1148a5f8b2ac636c720f5c463
+  rails-dom-testing (2.3.0) sha256=8acc7953a7b911ca44588bf08737bc16719f431a1cc3091a292bca7317925c1d
+  rails-html-sanitizer (1.7.0) sha256=28b145cceaf9cc214a9874feaa183c3acba036c9592b19886e0e45efc62b1e89
+  rainbow (3.1.1) sha256=039491aa3a89f42efa1d6dec2fc4e62ede96eb6acd95e52f1ad581182b79bc6a
+  rake (13.3.1) sha256=8c9e89d09f66a26a01264e7e3480ec0607f0c497a861ef16063604b1b08eb19c
+  rdf (3.3.4) sha256=a77fa0821e5b4e2bea9fdbb7c9d980564c89d27e81979690ce5c9e6bc80859c1
+  rdf-aggregate-repo (3.3.0) sha256=5693ccabf4dbbec7113c95e9aab028311f19d6022764fdebc6327f9d55a9efdc
+  rdf-hamster-repo (3.3.0) sha256=8a57d321d0c8bfb1eac7c47fd5b569e9c5fb7bb92bf9b78c102d58125dd1099a
+  rdf-isomorphic (3.3.0) sha256=1247bbd372f4d10d4fa13a40a23a44867bcb0fa4f7a01927191ea3cadad0af2c
+  rdf-json (3.3.0) sha256=80050bb97ec06108fc53d7ada777bceec06196ca7f0642ceeaf38b20a9b0addd
+  rdf-microdata (3.3.0) sha256=daaaf3f947ecce1c3e94aa5fed5f5c38ebea4070670d4e9600c156c631c25c3e
+  rdf-n3 (3.3.1) sha256=3030d185823422ee3249a826aa5b8c96281b4728a36f2061fb8b4f070c738f73
+  rdf-normalize (0.7.0) sha256=92374497dddb61c2910b50bfc12bb0ace33dcf23c8edbd0e0f78fd4acf839ebe
+  rdf-ordered-repo (3.3.0) sha256=551b7f22f258e807f329f0071625ed1c22fc3b29080078a1f678be6c2749f93a
+  rdf-raptor (3.1.0) sha256=938fa97b5d44b8c7189d1a035b7cbe77399f381481ee9bff88288737dd6f956e
+  rdf-rdfa (3.3.0) sha256=5770deb6da628b04b22a097269919897a0092c44250bbf5f22be4fabdc5ef71b
+  rdf-rdfxml (3.3.0) sha256=11647f6111b97b6a9b82413bd9810d4bb5524aa7dd06b3c1330bf58ec3aa6a9a
+  rdf-reasoner (0.9.0) sha256=227cca0008ed2e99b0a27e05f919af14b2516dfcac5544f159e10cacc69c1a2b
+  rdf-tabular (3.3.0) sha256=560fe8248687a6142267f437f1c98df8fb427e47f91c9a7cd430ab5f461b4d23
+  rdf-trig (3.3.0) sha256=3a22bc433f1042ff655c7dbbf95a69a4d85fbc3df386d7e7e52d834a18166c3f
+  rdf-trix (3.3.0) sha256=9817b4165bcb8d6ebb5acd9f3c495e93fdd455ab488071d50bbce5c7a61f8f4b
+  rdf-turtle (3.3.1) sha256=baf3be89977a2e7abb4f9a088f24918ca6223dcfa1483979991ab7996da73647
+  rdf-vocab (3.3.3) sha256=d3b642edb37be7b37b73cafa9e01d55762f99292838e7b0868a3575bd297bf8b
+  rdf-xsd (3.3.0) sha256=fab51d27b20344237d9b622ef32e83e4c44940840bfc76a245ce6b6abba44772
+  readline (0.0.4) sha256=6138eef17be2b98298b672c3ea63bf9cb5158d401324f26e1e84f235879c1d6a
+  regexp_parser (2.11.3) sha256=ca13f381a173b7a93450e53459075c9b76a10433caadcb2f1180f2c741fc55a4
+  reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
+  require_all (3.0.0) sha256=937853faa2833388eab551107bf7bf87c6bba6b4800bac5ce469eda7b6a9fed0
+  rexml (3.4.4) sha256=19e0a2c3425dfbf2d4fc1189747bdb2f849b6c5e74180401b15734bc97b5d142
+  rspec (3.13.2) sha256=206284a08ad798e61f86d7ca3e376718d52c0bc944626b2349266f239f820587
+  rspec-core (3.13.6) sha256=a8823c6411667b60a8bca135364351dda34cd55e44ff94c4be4633b37d828b2d
+  rspec-expectations (3.13.5) sha256=33a4d3a1d95060aea4c94e9f237030a8f9eae5615e9bd85718fe3a09e4b58836
+  rspec-mocks (3.13.8) sha256=086ad3d3d17533f4237643de0b5c42f04b66348c28bf6b9c2d3f4a3b01af1d47
+  rspec-openapi (0.18.4) sha256=4c6107f8bc16d4ed656bb35b5ec7994f5df5b8fccc78248bee6611eb90702ee6
+  rspec-support (3.13.7) sha256=0640e5570872aafefd79867901deeeeb40b0c9875a36b983d85f54fb7381c47c
+  rubocop (1.86.0) sha256=4ff1186fe16ebe9baff5e7aad66bb0ad4cabf5cdcd419f773146dbba2565d186
+  rubocop-ast (1.49.1) sha256=4412f3ee70f6fe4546cc489548e0f6fcf76cafcfa80fa03af67098ffed755035
+  ruby-debug-ide (0.7.5) sha256=5ec9b2d78e9aa106d23e29e4fdfeb9dc687a279bd25de060c6343aa135314488
+  ruby-progressbar (1.13.0) sha256=80fc9c47a9b640d6834e0dc7b3c94c9df37f08cb072b7761e4a71e22cff29b33
+  scanf (1.0.0) sha256=533db7f7e5acafea1a145d6c5329cef667a58fbcb7d64379a808ff1199ee1b00
+  securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
+  shacl (0.4.3) sha256=5e907d384d9883edf96264866de788e3340976579944bc8e01e61b76189a7fb8
+  shex (0.8.1) sha256=d07c0043302f9eed5f9f5af81e9786be74dde5e3065ea7932790f33253bfced6
+  simplecov (0.22.0) sha256=fe2622c7834ff23b98066bb0a854284b2729a569ac659f82621fc22ef36213a5
+  simplecov-html (0.13.2) sha256=bd0b8e54e7c2d7685927e8d6286466359b6f16b18cb0df47b508e8d73c777246
+  simplecov_json_formatter (0.1.4) sha256=529418fbe8de1713ac2b2d612aa3daa56d316975d307244399fa4838c601b428
+  smart_properties (1.17.0) sha256=f9323f8122e932341756ddec8e0ac9ec6e238408a7661508be99439ca6d6384b
+  sparql (3.3.2) sha256=20d73a62801fd6d03c834ca5012c11aaf6594ef536f554e92fd94bf9b3ed64dc
+  sparql-client (3.3.0) sha256=71225eefad48dc2baab6b7008df8a9bcfffa833e5f25387dbe87ff52a5cad64e
+  stringio (3.2.0) sha256=c37cb2e58b4ffbd33fe5cd948c05934af997b36e0b6ca6fdf43afa234cf222e1
+  sxp (2.0.0) sha256=79971bbab54a82fe4a861332475eb8c1f33142d70f2b7e830dacbd9082824721
+  temple (0.10.4) sha256=b7a1e94b6f09038ab0b6e4fe0126996055da2c38bec53a8a336f075748fff72c
+  thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
+  tilt (2.7.0) sha256=0d5b9ba69f6a36490c64b0eee9f6e9aad517e20dcc848800a06eb116f08c6ab3
+  triple_easy (0.1.0)
+  tzinfo (2.0.6) sha256=8daf828cc77bcf7d63b0e3bdb6caa47e2272dcfaf4fbfe46f8c3a9df087a829b
+  unicode-display_width (3.2.0) sha256=0cdd96b5681a5949cdbc2c55e7b420facae74c4aaf9a9815eee1087cb1853c42
+  unicode-emoji (4.2.0) sha256=519e69150f75652e40bf736106cfbc8f0f73aa3fb6a65afe62fefa7f80b0f80f
+  unicode-types (1.11.0) sha256=81d1201273260fa89b85471e7eebb93a51bb4e5f078a525508dcae7835d176f9
+  uri (1.1.1) sha256=379fa58d27ffb1387eaada68c749d1426738bd0f654d812fcc07e7568f5c57c6
+  useragent (0.16.11) sha256=700e6413ad4bb954bb63547fa098dddf7b0ebe75b40cc6f93b8d54255b173844
+  vcr (6.4.0) sha256=077ac92cc16efc5904eb90492a18153b5e6ca5398046d8a249a7c96a9ea24ae6
+  webmock (3.26.2) sha256=774556f2ea6371846cca68c01769b2eac0d134492d21f6d0ab5dd643965a4c90
+  yaml-ld (0.0.3) sha256=2934e06ef651337bf4c5d78e6a22007e0c46f1215c19dc024816c1fa82b971d1
+
+RUBY VERSION
+  ruby 3.2.4
+
+BUNDLED WITH
+  4.0.9
