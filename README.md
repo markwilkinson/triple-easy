@@ -65,6 +65,19 @@ triplify("http://example.org/eve",
          
 ```
 
+## to use in your classes:
+
+```
+module Example
+   class MyExample
+      include TripleEasy     # bring "triplify" into this class
+      def initialize
+      end
+   end
+end
+
+```
+
 ## Features
 
 - Automatic URI detection for subjects, predicates, and objects
