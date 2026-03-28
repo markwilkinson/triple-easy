@@ -1,4 +1,5 @@
 require 'triple_easy/version'
+require 'linkeddata'
 
 module TripleEasy
   # Easy way to add RDF triples (or quads) to an RDF repository.
